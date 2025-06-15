@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A hotel booking App that lets user book,list, rate and review the hotel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abinash Das",
+  "email":"abinash.das.dev@gmail.com",
+  "license": "ISC"
+}

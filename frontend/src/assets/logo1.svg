@@ -1,0 +1,18 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .nexstay-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 31px;
+      font-weight: 700;
+      fill: white;
+    }
+    .nexstay-icon {
+      fill: white;
+    }
+  </style>
+  <!-- House Icon -->
+  <path class="nexstay-icon" d="M10 30V20L20 12L30 20V30H22V22H18V30H10Z"/>
+  <rect x="0" y="0" width="200" height="50" fill="none"/>
+  <!-- NexStay Text -->
+  <text x="40" y="32" class="nexstay-text">NexStay</text>
+</svg>
