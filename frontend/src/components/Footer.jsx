@@ -6,7 +6,7 @@ const Footer = () => {
     <div className=' bg-[#F6F9FC] text-gray-500/80 pt-8 px-6 md:px-16 lg:px-24 xl:px-32'>
             <div className='flex flex-wrap justify-between gap-12 md:gap-6'>
                 <div className='max-w-80'>
-                    <img src={assets.logo1} alt="logo" className='invert mb-3 h-8 md:h-9' />
+                    <img src={assets.logo} alt="logo" className='invert mb-3 h-8 md:h-9' />
                     <p className='text-sm'>
                         Discover world's most extraordinary places to stay, from boutique hotels to luxury villas and private islands.
                     </p>

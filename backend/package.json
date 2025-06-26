@@ -1,12 +1,23 @@
 {
-  "name": "backend",
+  "name": "nexstay-Server",
   "version": "1.0.0",
   "description": "A hotel booking App that lets user book,list, rate and review the hotel",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abinash Das",
-  "email":"abinash.das.dev@gmail.com",
-  "license": "ISC"
+  "email": "abinash.das.dev@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@clerk/express": "^1.7.2",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0",
+    "multer": "^2.0.1",
+    "svix": "^1.68.0"
+  }
 }
