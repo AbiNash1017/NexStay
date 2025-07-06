@@ -7,8 +7,12 @@
 [![Node.js](https://img.shields.io/badge/Node.js-20.x-green?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express.js-4.x-black?logo=express&logoColor=white)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.x-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Clerk](https://img.shields.io/badge/Clerk-Authentication-6E00FF?logo=clerk&logoColor=white)](https://clerk.dev/)
+[![Clerk](https://img.shields.io/badge/Clerk-Authentication-6E00FF?logo=clerk&logoColor=white)](https://clerk.dev)
+[![Stripe](https://img.shields.io/badge/Stripe-Payments-635BFF?logo=stripe&logoColor=white)](https://stripe.com)
+[![Nodemailer](https://img.shields.io/badge/Nodemailer-Email_Service-EA4335?logo=gmail&logoColor=white)](https://nodemailer.com)
+---
 
+*Live Link:* [NexStay](https://nexstay.vercel.app/)
 
 *Author*: `Abinash Das`
 
@@ -28,7 +32,7 @@ The vision is to eliminate the complexities of travel planning, offering a seaml
 - **Role-Based Authentication:** Secure user authentication powered by Clerk, supporting different user roles (e.g., guests, hotel managers) with appropriate access controls.
 - **Secure & Personalized Experience:** Robust authentication safeguards user data, providing a personalized and trusted environment for all your booking needs.
 - **Responsive & Modern Design:** Optimized for all devices – desktop, tablet, or mobile – for a consistent and high-quality experience.
-
+- **Integrated Payment Gateway:** Fast, secure, and seamless payments powered by Stripe. Enjoy multiple payment methods, instant confirmations, and peace of mind knowing your transactions are protected by industry-leading security protocols.
 ---
 
 ## 🛠️ Technologies Used
@@ -45,6 +49,8 @@ The vision is to eliminate the complexities of travel planning, offering a seaml
 ### Authentication
 - **Clerk** – Complete user management platform for React, Node.js, and more, handling authentication securely.
 
+### Payment
+- **Stripe**- Fast, secure, and seamless payments powered by Stripe.
 ---
 
 ## 🚀 Getting Started
@@ -57,6 +63,8 @@ To get a local copy up and running, follow these simple steps.
 - npm (comes with Node.js) or Yarn
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account (or a local MongoDB instance)
 - [Clerk](https://clerk.dev/) account
+- [Stripe](https://stripe.com) account
+- [Brevo](https://brevo.com) account
 
 ---
 
