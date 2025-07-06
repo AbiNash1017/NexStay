@@ -7,12 +7,12 @@ import AllRooms from "./pages/AllRooms";
 import RoomDetails from "./pages/RoomDetails";
 import MyBookings from "./pages/MyBookings";
 import HotelRegistration from "./components/HotelRegistration";
-import Dashboard from "./pages/HotelOwner/Dashboard";
-import AddRoom from "./pages/HotelOwner/AddRoom";
-import ListRoom from "./pages/HotelOwner/ListRoom";
+import Layout from "./pages/hotelOwner/Layout";
+import Dashboard from "./pages/hotelOwner/Dashboard";
+import AddRoom from "./pages/hotelOwner/AddRoom";
+import ListRoom from "./pages/hotelOwner/ListRoom";
 import { Toaster } from "react-hot-toast";
 import { useAppContext } from "./context/AppContext";
-import Layout from "./pages/HotelOwner/Layout";
 
 const App = () => {
   //chechks if the cureent path is owner path or not then hides the navbar for owner path
