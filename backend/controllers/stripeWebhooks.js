@@ -4,14 +4,14 @@ import Booking from '../models/Booking.js';
 //API to handle Stripe Webhooks
 export const stripeWebhooks = async (request, response) => {
     //stripe Gateway Initialization
-    const stripeInstance = new stripe(process.env.STRIPE_SECRET_KEY);
+    const stripeInstance = stripe(process.env.STRIPE_SECRET_KEY);
     const signature = request.headers['stripe-signature'];
     let event;
 
     try {
         event = stripeInstance.webhooks.constructEvent(request.body, signature, process.env.STRIPE_WEBHOOK_SECRET);
     } catch (error) {
-        response.status(400).send(`webhook Error: ${error.message}`);
+       return response.status(400).send(`webhook Error: ${error.message}`);
     }
 
     //Hanle the evnet
